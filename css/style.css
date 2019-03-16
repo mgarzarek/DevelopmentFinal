@@ -124,22 +124,22 @@ top:0;
 .nav-container ul{
 width:100%;
 margin: auto;
-padding:0; /*Ul would have default padding otherwise*/
+padding:0; 
 list-style-type: none;
 font-size:18px;
 font-family:"Gill Sans", Helvetica, Arial, sans-serif;
 }
 
 .nav-container li{
-float: left; /*each seperate item tries to float left*/
+float: left;
 }
 
 .nav-container a{
-display: block;  /*let’s us treat each link as a box, which can be sized and styled*/
-box-sizing: border-box; /*allows the "width" to include borders and padding*/
+display: block;
+box-sizing: border-box;
 width: 130px;
 padding: 10px;
-text-decoration: none;  /*removes the default underline*/
+text-decoration: none;
 text-align: center;
 background-color: #F4A261;
 color:#264653;
@@ -147,7 +147,7 @@ color:#264653;
 
 .nav-container a:hover{
 background-color: #2A9D8F;
-/* changes link-box color on rollover*/
+
 }
 
 .nav-container a:visited {
