@@ -1,4 +1,16 @@
-
+.bannerbackground{
+	height:165px;
+	width:100%;
+	background-image:url("images/tunnelbanner.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-color: #444B4B;
+	padding-top:30px;
+	font-size: 110px;
+	text-align: center;
+	margin-bottom:30px;
+	color: #AAAAAA;
+}
 
 audio{
  	width:100%;
@@ -6,18 +18,18 @@ audio{
 
 body{
 	margin: 50px 15% 50px 15%;
-	background-color: #FAFFD8;
+	background-color: #F7FAFF;
 	/*Google Font*/
 	font-family: 'Poppins', serif;
 	font-size: 18px;
-	color:#115268;
+	color:#000000;
 	}
 
 h1{
 	font-family: 'Poppins', serif;
 	font-size: 80px;
 	margin-bottom: 0;
-	color: #264653
+	color: #000000
 }
 
 h2{
@@ -78,7 +90,7 @@ padding:0;
 
 .mydiv{
 	box-sizing:border-box;
-	border: solid 15px #cccccc;
+	border: solid 15px #B73333;
 	padding: 0;
 	float:left;
 	margin: 25px 25px 25px 0;
@@ -96,12 +108,12 @@ padding:0;
 	clear:left;
 	float:left;
 	margin: 0 15px 15px 0;
-	border: solid 15px #cccccc;
+	border: solid 15px #000000;
 	padding: 0;
 }
 
 .anim2{
-	border: solid 15px #cccccc;
+	border: solid 15px #000000;
 
 }
 
@@ -114,8 +126,8 @@ padding:0;
 
 .nav-container{
 width:100%;
-background-color: #F4A261;
-box-shadow: 2px 2px 20px #7E7F79;
+background-color: #F7FAFF;
+box-shadow: 2px 2px 20px #AAAAAA;
 position:fixed;
 left:0;
 top:0;
@@ -124,10 +136,10 @@ top:0;
 .nav-container ul{
 width:100%;
 margin: auto;
-padding:0; 
+padding:0;
 list-style-type: none;
 font-size:18px;
-font-family:"Gill Sans", Helvetica, Arial, sans-serif;
+font-family:"Poppins", Helvetica, Arial, sans-serif;
 }
 
 .nav-container li{
@@ -141,17 +153,17 @@ width: 130px;
 padding: 10px;
 text-decoration: none;
 text-align: center;
-background-color: #F4A261;
-color:#264653;
+background-color: #F7FAFF;
+color:#AAAAAA;
 }
 
 .nav-container a:hover{
-background-color: #2A9D8F;
+background-color: #A86D6D;
 
 }
 
 .nav-container a:visited {
-    background-color: #E76F51;
+    background-color: #B73333;
 }
 
 
