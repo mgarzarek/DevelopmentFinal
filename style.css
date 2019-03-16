@@ -19,7 +19,7 @@ html{
 	font-size: 110px;
 	text-align: center;
 	margin-bottom:30px;
-	color: #AAAAAA;
+	color: #B73777;
 }
 
 audio{
@@ -163,12 +163,12 @@ width: 130px;
 padding: 10px;
 text-decoration: none;
 text-align: center;
-background-color: #F7FAFF;
+background-color: #B73333;
 color:#000000;
 }
 
 .nav-container a:hover{
-background-color: #B73333;
+background-color: #F7FAFF;
 
 }
 
